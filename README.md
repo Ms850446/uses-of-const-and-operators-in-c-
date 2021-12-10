@@ -1,7 +1,7 @@
 const uses :
 1-constant variables >> while declaring a variable as constant and this make us unable to change
 it in the rest of the code and also require to initialize it while declaring .                      
-ex :
+ex :    
 const float pi = 22 / 7.0;
 pi = 3.14;//Error
 output :
