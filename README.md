@@ -42,9 +42,9 @@ return d;\
 \
 6- we can make a constant data member for any class so that we can't change its value\
 ex:\
-class Circle{
-\ public :const float pi= 3.14;
-\}\
+class Circle{\
+public :const float pi= 3.14;\
+}\
 \
 /////////////////////////////////////////////////\
 \
@@ -59,8 +59,8 @@ unsigned short b = 0xAAAA;      // pattern 1010 ...\
 cout << hex << ( a & b ) << endl;// the output will be 0\
 \
 2-address operator as it is used to get the address of the variable and assign it 
-to a pointer as example or just to get the address of the variable 
-\ex : \
+to a pointer as example or just to get the address of the variable \
+ex : \
 int x=9;\
 cout<<&x<<endl;\
 \
