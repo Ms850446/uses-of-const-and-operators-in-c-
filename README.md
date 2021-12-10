@@ -2,9 +2,9 @@ const uses :
 1-constant variables >> while declaring a variable as constant and this make us unable to change
 it in the rest of the code and also require to initialize it while declaring .                      
 ex :    
-const float pi = 22 / 7.0;
-pi = 3.14;//Error
-output :
+const float pi = 22 / 7.0;\
+pi = 3.14;//Error\
+output :\
 Error	C3892	'pi': you cannot assign to a variable that is const
 /////
 
