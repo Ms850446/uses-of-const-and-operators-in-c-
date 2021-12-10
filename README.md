@@ -13,7 +13,7 @@ declare a pointer to the any constant variable and that's make us unable to chan
 of the variable that the pointer point to\
 ex :\
 const float pi = 22 / 7.0;//ok\
-float const* address = &pi;//ok\
+float const* address = & pi;//ok\
 *address=3.14//Error\
 \
 3- we can make a constant pointer that can't change the address of it once it is
