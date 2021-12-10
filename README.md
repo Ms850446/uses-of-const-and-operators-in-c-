@@ -6,7 +6,7 @@ const float pi = 22 / 7.0;
 pi = 3.14;//Error
 output :
 Error	C3892	'pi': you cannot assign to a variable that is const
-////
+/////
 
 2- we can make a constant pointer to point to a constant variable and this is the way to
 declare a pointer to the any constant variable and that's make us unable to change the value
