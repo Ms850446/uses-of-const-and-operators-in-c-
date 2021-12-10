@@ -20,7 +20,7 @@ float const* address = & pi;//ok\
 initialized or declared to any variable\
 ex :\
 int x = 9;  int f = 8;//ok\
-int* const Xaddress = &x;//ok\
+int *const Xaddress = &x;//ok\
 Xaddress=&f; //Error\
 Xaddress++; //Error\
 \
