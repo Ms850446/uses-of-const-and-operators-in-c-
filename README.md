@@ -43,7 +43,7 @@ return d;\
 6- we can make a constant data member for any class so that we can't change its value\
 ex:\
 class Circle{
-\public :const float pi= 3.14;
+\ public :const float pi= 3.14;
 \}\
 \
 /////////////////////////////////////////////////\
